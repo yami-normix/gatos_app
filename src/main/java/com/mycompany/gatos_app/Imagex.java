@@ -9,11 +9,9 @@ package com.mycompany.gatos_app;
  *
  * @author carlos
  */
-public class Gatos {
+public class Imagex {
     String id;
     String url;
-    String apikey = "8448514d-a1ac-4eb4-8913-94bdd013a4b4";
-    String image;
 
     public String getId() {
         return id;
@@ -30,25 +28,6 @@ public class Gatos {
     public void setUrl(String url) {
         this.url = url;
     }
-
-    public String getApikey() {
-        return apikey;
-    }
-
-    public void setApikey(String apikey) {
-        this.apikey = apikey;
-    }
-
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
-    }
-    
-    
-    
     
     
     
